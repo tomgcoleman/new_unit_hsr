@@ -1,0 +1,45 @@
+define('testSuites', function() {
+    'use strict';
+
+    // these are the AMD module names defined at the top of each file, they are used to require the module
+    return [
+        'wotifTests',
+        'pageLevelErrorTests',
+        'pageLevelCheckTests',
+        'aColumnTests',
+        'hotelNameFilterTests',
+        'starFilterTests',
+        'priceFilterTests',
+        'poiFilterTests',
+        'accessibilityFilterTests',
+        'accommodationFilterTests',
+        'neighborhoodFilterTests',
+        'amenitiesFilterTests',
+        'filterClickTests',
+        'bColumnTests',
+        'airAttachTests',
+        'delayedLoadedElementsTests',
+        'headerAndFooterTests',
+        'highLevelRegionTests',
+        'hotelContainerTests',
+        'pinnedHotelTests',
+        'dealOfDayTests',
+        'hotelListTests',
+        'mapViewTests',
+        'omnitureTests',
+        'opaqueBannerTests',
+        'paginationTests',
+        'paginationClickTests',
+        'paybackTests',
+        'searchWizardTests',
+        'searchWizardClickOpenTests',
+        'searchWizardClickChangeDatesTests',
+        'searchWizardClickChangeDestinationTests',
+        'sortBarTests',
+        'sortClickTests',
+        'userInteractionTests',
+        'travelAdTests',
+        'hotelMemberPriceTests',
+        'vipFilterTests'
+    ];
+});
