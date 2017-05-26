@@ -52,6 +52,6 @@ var filenames = [
 
 for (var i = 0 ; i < filenames.length ; i++) {    
     var script_el = document.createElement('script');
-    script_el.src = "https://rawgit.com/tomgcoleman/new_unit_hsr/master/" + filenames[i];
+    script_el.src = "https://rawgit.com/tomgcoleman/new_unit_hsr/master/" + filenames[i] + "?cache_breaker=" + new Date().getTime();
     document.getElementsByTagName('head')[0].appendChild(script_el)
 }
